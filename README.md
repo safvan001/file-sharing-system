@@ -26,7 +26,7 @@ This is a secure file-sharing system between two different types of users: Ops U
 2. **Set Up the Virtual Environment:**
    ```bash
    python -m venv venv
-   source venv/bin/activate
+   venv\Scripts\activate
 3. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
