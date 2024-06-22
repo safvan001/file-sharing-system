@@ -88,6 +88,7 @@ class DownloadFileView(APIView):
         return Response({'download-link': download_link, 'message': 'success'})
     
 class ListFiles(APIView):
+    permission_classes = (IsAuthenticated,)
     def get(self,request):
         if request.user.user_type != 'Client':
             return Response({'Not Authorized to Access'},status=status.HTTP_401_UNAUTHORIZED) 
@@ -97,7 +98,7 @@ class ListFiles(APIView):
 
         for i in files:
             download_link = request.build_absolute_uri(i.file.url)
-            download_links.append({'file':download_link})
+            download_links.append({'file_id':i.id,'file':download_link})
 
         return Response(download_links)
 
