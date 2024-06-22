@@ -37,10 +37,6 @@ This is a secure file-sharing system between two different types of users: Ops U
    ```bash
    python manage.py runserver
 
-6.**Postman Dump**
-  ```bash
-  https://documenter.getpostman.com/view/27994184/2sA3XWbyR8
-
 ## Deployment
 **To deploy the application on AWS EC2:**
   - Set up an EC2 instance with the necessary configurations.
@@ -49,6 +45,11 @@ This is a secure file-sharing system between two different types of users: Ops U
   - Configure the database and other environment variables.
   - Run the application using a production server like Gunicorn.
   - Set up a reverse proxy using Nginx for better performance and security
+
+**Postman Dump**
+  ```bash
+  https://documenter.getpostman.com/view/27994184/2sA3XWbyR8
+
 
 
    
