@@ -37,6 +37,15 @@ This is a secure file-sharing system between two different types of users: Ops U
    ```bash
    python manage.py runserver
 
+**Deployment**
+- To deploy the application on AWS EC2:
+  1.Set up an EC2 instance with the necessary configurations.
+  2.Install required software and dependencies on the EC2 instance.
+  3.Clone the repository and set up the environment.
+  4.Configure the database and other environment variables.
+  5.Run the application using a production server like Gunicorn.
+  6.Set up a reverse proxy using Nginx for better performance and security
+
 
    
 
