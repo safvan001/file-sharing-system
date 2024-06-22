@@ -37,9 +37,6 @@ This is a secure file-sharing system between two different types of users: Ops U
    ```bash
    python manage.py runserver
 
-   
-   
-
 
    
 
