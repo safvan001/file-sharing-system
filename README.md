@@ -22,7 +22,7 @@ This is a secure file-sharing system between two different types of users: Ops U
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/safvan001/file-sharing-system.git
-   cd file-sharing-system
+   cd fileshare
 2. **Set Up the Virtual Environment:**
    ```bash
    python -m venv venv
